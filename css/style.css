@@ -1,0 +1,679 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+      /* overflow: hidden; */
+}
+html, body {
+  overflow-x: hidden;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;  
+    /* background-color: aqua;  */
+}
+
+.clear_fix{
+    clear: both;
+}
+
+li{
+   padding-bottom: 20px ; 
+}
+
+
+
+/* start_homebar */
+
+img{
+    width: 180px;
+    float: left;
+}
+
+.Navbar a{
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+    line-height: 31.62px;
+    padding-left:10px;
+    color: #000000;
+    margin-left: 25px;
+
+}
+#home_bar{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;   
+    position: fixed ;
+    top: 0px;
+    left: 0px;
+    color: #303030;
+    border: 1px;
+    border-style: ridge;
+    text-align: center;
+    z-index: 6; 
+}
+
+.Navbar{
+    width: 100%;
+    margin-top: 8px;
+}
+.contant{   
+    width: 60%;
+    height: 100%;
+    margin-inline-start: auto;
+}
+/* end_homebar */
+
+
+
+
+ /* start Homepage */
+#home{
+    background:linear-gradient(rgba(0, 0, 0, 0.564)), url('../images/drew-coffman-1872.jpg');
+    width: 100%;
+    min-height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_content{
+    text-align: center;
+    /* background-color: #834f00; */
+    padding: 60px 30px;
+    border-radius: 10px;
+    width: 90%;
+    min-width: 700px;
+}
+
+.home_buttons .nontranbutton{
+    background-color: #8E7754;
+    font-family: "Alegreya", serif;
+    font-size: 16px;
+    margin: 0px 0px 12px;
+    padding: 15px 28px;
+    font-weight: 700;
+    border: 1px ;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    transition: all 0.5s ;
+}
+.nontranbutton:hover{
+    background-color: white;
+    color: #000000;
+}
+.home_buttons .tranbutton{
+    background-color: transparent;
+    font-family: "Alegreya", serif;
+    font-size: 16px;
+    margin: 0px 0px 12px;
+    padding: 15px 28px;
+    font-weight: 700;
+    border: 1px solid white ;
+    border-radius: 5px;
+    color: #FFFFFF;
+    transition: background-color 0.5s, color 0.5s ;
+}
+.tranbutton:hover {
+    background-color: white;
+    color: #000000;
+}
+.home_content p{
+    font-family: "Alegreya Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40.92px;
+    margin: 0px 0px 5px
+}
+
+.home_content .pw{
+    font-family: "Alegreya Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44.64px;
+    margin: 10px 0px 20px;
+    text-align: center;
+}
+.home_content h1{
+    font-family: "Alegreya", serif;
+    color: #FFFFFF;
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 91.2px;
+    margin: 0px 0px 18px;
+}
+ /* end Homepage */
+
+
+
+/* who_page */
+
+#who_page{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    padding-block: 50px;   
+}
+.flexd{
+    display: flex;
+}
+.who_img{
+    width: 100%;
+}
+.information h2{
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    line-height: 44.16px;
+    font-weight: 400;
+}
+.information p{
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+ul{
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.who_information .icon{
+    width: 40px;
+    margin-inline:10px ;
+    background-color: #ffffff;
+    border:1px solid rgb(221, 216, 216);
+    border-radius: 50%;
+}
+.who_information{
+    text-align: left;
+
+    margin-left: 94px;
+}
+.contimage{
+
+    width: 50%;
+}
+.continformation{
+    width: 50%;
+    text-align: center;
+}
+.information{
+    padding-bottom: 40px;
+}
+/*end who_page */
+
+
+/* <!-- Our Location page --> */
+
+#Our_Location_page{
+    background-color:#F8F8F8;
+    width: 100%;
+    padding-block: 50px;
+    overflow: hidden;
+}
+
+.contOur_Location{
+    width: 50%;
+    text-align: left;
+    padding-right: 50px;
+    overflow: hidden;
+}
+.Our_Location{
+    width: 100%;
+} 
+.contimage_Our_Location{
+    width: 50%;
+    text-align: center;
+    padding-left: 50px;
+    overflow: hidden;
+}
+.Our_Location_img{
+    width: 100%;
+}
+.Our_Location h2{
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    line-height: 44.16px;
+    margin-bottom:25px ;
+    font-weight: 400;
+}
+.Our_Location p{
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+/* <!-- end Our Location page --> */
+
+
+
+
+/* <!-- Our Baking_page --> */
+
+#Our_Baking_page{
+    background-color:#ffffff;
+    width: 100%;
+    padding-block: 20px;
+}
+.OurBaking_infrmation{
+ padding: 50px;
+}
+.OurBaking_infrmation h3 {
+    text-align: center;
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-size: 30px;
+    line-height: 41.4px;
+    font-weight: 400;
+    text-align: center;
+}
+.OurBaking_infrmation h4{
+    text-align: center;
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-size: 30px;
+    line-height: 41.4px;
+    font-weight: 400; 
+}
+.OurBaking_infrmation p {
+    text-align: center;
+    color:#888888;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+    margin: 17px 245.012px 0px 245px;
+}
+.OurBaking_child h4 {
+    text-align: center;
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-size: 22px;
+    line-height: 30.36px;
+    font-weight: 400; 
+ }
+.OurBaking_child p {
+    text-align: center;
+    color:#888888;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;  
+} 
+.OurBaking_child img{
+    width: 100%;
+}
+
+.OurBaking_child{
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    padding-right: 25px;
+}
+.OurBaking_perant{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* <!-- end Our Baking_page --> */
+
+
+
+/* <!-- Contact_Information_page --> */
+
+#Contact_Information_page{
+    background-color:#F8F8F8;
+    width: 100%;
+    padding-block: 50px;
+}
+.Contact_Information_info h2{
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    line-height: 44.16px;
+    margin: 0px 0px 25px;
+    font-weight: 400;
+}
+.Contact_Info p{
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.Contact_Information_info p{
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.contContact_Information ul{
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.Contact_Information_info{
+    text-align: left;
+    margin-block: 70px;
+}
+.contContact_Information{
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 5px;
+
+}
+.contimage_Contact_Information{
+    float: left;
+    width: 50%;
+}
+.contContact_Information .ico{
+    width: 35px;
+    margin-inline:10px ;
+    background-color: #8E7754;
+    border:1px;
+    border-radius: 50%;
+}
+.Contact_Information_iframe iframe{
+ padding-right: 150px;  
+}
+
+/*<!-- end Contact_Information_page --> */
+
+
+
+
+
+
+
+/* <!-- about_us_div --> */
+
+#about_us_div{
+    background-color: #403D38;
+    width: 100%;
+    padding-block: 50px;
+    
+}
+.about_us_perant{
+    float: left;
+    width: 25%;
+    /* margin-block: 50px; */
+    padding: 10px;
+    position: relative;
+
+}
+.about_us_child p {
+    color: #969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    line-height: 29.79px;
+    font-weight: 400;
+    padding-block: 20px;
+}
+.about_us_perant h4 {
+    color:#FFFFFF;
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+    line-height: 24.84px;
+    font-weight: 400;
+}
+.about_us_perant ul{
+    color: #969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.custom-line{
+  border: 0;
+  height: 0.5px;
+  background: #45423D;
+  border-radius: 3px;
+  width: 60%;         
+}
+.about_chi span{
+    color: #969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.about_us_perant li{
+   padding: 0px 0px 10px 0px; 
+}
+.about_chi .ic{
+    width: 35px;
+    margin-inline:10px ;
+    margin-bottom: 10px;
+}
+.icon_about_us_perant{
+    width: 20px;
+    margin-top: 5px;
+
+}
+.about_chi a{
+    color:#969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.about_chi {
+    padding: 10px 0px 15px 0px;
+} 
+.about_us_perant .img_end{
+  width: 259px;
+  position: absolute;
+  top: 100px;
+  left: 10%;
+opacity: 0.1;
+}
+/* <!--end about_us_div -->
+
+
+
+
+
+/* <!-- end_div --> */
+
+#endsectiondiv{
+    background-color:#353330;
+    width: 100%;
+   height: 45dvh;
+   padding-block: 20px;
+}
+/* .end_img img{
+    width: 250px;
+}
+.end_divcont p{
+    color:#777777;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 15px;
+    line-height: 27.9px;
+    font-weight: 400;
+    /* padding-block: 20px;
+    padding-left: 10px; */
+   
+/*
+.end_img{
+    width: 30%;
+    margin: auto;
+    padding-block: 40px;
+   
+}
+.img_end_adiv{
+    width:55px;
+    height: 55px;
+   margin: auto;
+   background-color: #888888;
+   
+}
+.end_divcont{
+    text-align: center;  
+}
+.a_enddiv{
+    margin-inline: 495px;
+    margin-top: 10px;
+   
+}  */
+
+.img-end{
+    width: 250px;
+    margin: auto;
+}
+.imgdsddsd{
+    width: 100%;
+}
+.endPContent{
+    color:#777777;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 15px;
+    line-height: 27.9px;
+    font-weight: 400;
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    margin-block: 8px;
+}
+.iconImage{
+
+ width: 50px;
+}
+.endA{
+   
+    width: 250px;
+    margin: auto;
+}
+
+
+/* .scroll-to-top */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;          
+  height: 40px;         
+  background-color: #68686D; 
+  border: none;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+}
+.scroll-to-top img {
+  width: 40px; 
+  height: 40px;
+}
+.scroll-to-top:hover {
+  background-color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* @media screen and (min-width: 575px) and (max-width: 768px) {
+  .home_content {
+    padding-top: 1000px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .home_content {
+    padding-top: 1000px;
+  }
+}
+
+@media screen and (max-width: 1202px) and (min-width: 991px){
+  #home_bar {
+    width:100% ;
+  }
+  .Navbar a{
+    font-size: 15px;
+    padding-left:20px;
+    margin-left: 0px;
+  }
+  .home_content{
+        padding-top: 170px; 
+    }
+
+}
+@media screen and (max-width: 1440px) and (min-width: 1201px) {
+
+  .home_content{
+        padding-top: 170px; 
+    }
+
+}
+@media screen and (max-width: 992px) and (min-width: 767px) {
+    .Navbar a{
+        font-size: 20px;
+        padding-left:10px;
+        margin-left: 0px;
+    }
+    .home_content{
+        padding-top: 250px; 
+    }
+} */
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .Navbar a {
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+  .home_content {
+    padding-top: 200px;
+  }
+  #home{
+        height: 80dvh;     
+    }
+    #home_bar{
+        height: 100px;   
+    }
+    .Navbar{
+        margin-top: 25px ;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  #home_bar {
+    width: 100%;
+  }
+  .Navbar a {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 0;
+  }
+  .home_content {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+  .home_content{
+    padding-top: 150px; 
+}
+}
